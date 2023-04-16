@@ -1,0 +1,22 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "mr_bot",
+    "name_for_model": "todo",
+    "description_for_human": "Plugin for managing a TODO list. You can add, remove and view your TODOs.",
+    "description_for_model": "Plugin for managing a TODO list. You can add, remove and view your TODOs.",
+    "auth": {
+        "type": "oauth",
+        "client_url": "https://itsmrbot.com/oauth/authorize",
+        "authorization_url": "https://itsmrbot.cloudflareaccess.com/cdn-cgi/access/callback",
+        "scope": "all",
+        "authorization_content_type": "application/x-www-form-urlencoded"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://itsmrbot.com/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "https://itsmrbot.com/logo.png",
+    "contact_email": "smithclay@gmail.com",
+    "legal_info_url": "https://itsmrbot.com/legal.txt"
+}
