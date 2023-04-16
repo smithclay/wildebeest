@@ -30,6 +30,7 @@ export function getDocumentHead(data: DocumentHeadData, head?: DocumentHeadValue
 		result.meta?.push({
 			name,
 			content,
+			property: name,
 		})
 	}
 
